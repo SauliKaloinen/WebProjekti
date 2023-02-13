@@ -38,7 +38,7 @@ if(mysqli_connect_errno()) {
         }  
         else{  
             // echo("<h1>invalid email or password.</h1>");
-            header("Location:login.php?virhe=Tadaa");
+            header("Location:login.php?virhe=Virhe tunnarissa");
         }
         
 ?>
